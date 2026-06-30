@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5g0031/v1
+canonical_location: https://kanripo.org/bkk/KR5g0031/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 上清靈寳大法目録
+  identifiers:
+    alt_id:
+    - DZ1222
+  date: '2015-08-29 02:47:36.199567'
+  source:
+    repository: kanripo
+    path: KR5g0031
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0031_000.yaml, hash: 'sha256:30a31e9d57445477babfd46bc0ada8dc1d15c72ed9e1a96d734f5db8f45158ca'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0031_000.markers.yaml, hash: 'sha256:69101ac2e4b4b6440e604ca68b1c53d4c2a8844331adc9cc05b96c4946e1d432'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0031_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3686
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:dcacdb30b20930d2d73a848b2e7bfad22d533226f264d8bd1fbcb64d98134f41
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
